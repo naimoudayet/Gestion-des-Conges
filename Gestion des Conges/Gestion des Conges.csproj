@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0E6F9BA-B56F-41F0-ABD8-4B725D4C0EE9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_des_Conges</RootNamespace>
+    <AssemblyName>Gestion des Conges</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="config\Database.cs" />
+    <Compile Include="config\SharedPrefs.cs" />
+    <Compile Include="controller\CongeController.cs" />
+    <Compile Include="controller\UserController.cs" />
+    <Compile Include="dao\IConge.cs" />
+    <Compile Include="dao\IUser.cs" />
+    <Compile Include="model\Conge.cs" />
+    <Compile Include="model\User.cs" />
+    <Compile Include="views\agent\AgentAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\agent\AgentAdd.Designer.cs">
+      <DependentUpon>AgentAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\agent\AgentUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\agent\AgentUpdate.Designer.cs">
+      <DependentUpon>AgentUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\agent\GestionAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\agent\GestionAgent.Designer.cs">
+      <DependentUpon>GestionAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\conge\CongeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\conge\CongeAdd.Designer.cs">
+      <DependentUpon>CongeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\conge\CongeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\conge\CongeUpdate.Designer.cs">
+      <DependentUpon>CongeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\conge\GestionConge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\conge\GestionConge.Designer.cs">
+      <DependentUpon>GestionConge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\menu\MenuAdministrateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\menu\MenuAdministrateur.Designer.cs">
+      <DependentUpon>MenuAdministrateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\menu\MenuAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\menu\MenuAgent.Designer.cs">
+      <DependentUpon>MenuAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\solde\GestionSolde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\solde\GestionSolde.Designer.cs">
+      <DependentUpon>GestionSolde.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="views\agent\AgentAdd.resx">
+      <DependentUpon>AgentAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\agent\AgentUpdate.resx">
+      <DependentUpon>AgentUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\agent\GestionAgent.resx">
+      <DependentUpon>GestionAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="views\conge\CongeAdd.resx">
+      <DependentUpon>CongeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\conge\CongeUpdate.resx">
+      <DependentUpon>CongeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\conge\GestionConge.resx">
+      <DependentUpon>GestionConge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\menu\MenuAdministrateur.resx">
+      <DependentUpon>MenuAdministrateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\menu\MenuAgent.resx">
+      <DependentUpon>MenuAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\solde\GestionSolde.resx">
+      <DependentUpon>GestionSolde.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

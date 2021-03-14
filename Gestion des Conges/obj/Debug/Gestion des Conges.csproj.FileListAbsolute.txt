@@ -1,0 +1,19 @@
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\bin\Debug\Gestion des Conges.exe.config
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\bin\Debug\Gestion des Conges.exe
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\bin\Debug\Gestion des Conges.pdb
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion des Conges.csprojAssemblyReference.cache
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.Authentification.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.Properties.Resources.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion des Conges.csproj.GenerateResource.cache
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion des Conges.csproj.CoreCompileInputs.cache
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion des Conges.exe
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion des Conges.pdb
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.MenuAgent.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.agent.GestionDesAgents.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.MenuAdministrateur.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.agent.AgentAdd.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.agent.AgentUpdate.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.solde.GestionSolde.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.conge.CongeAdd.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.conge.CongeUpdate.resources
+C:\Users\naiim\source\repos\Gestion des Conges\Gestion des Conges\obj\Debug\Gestion_des_Conges.views.conge.GestionConge.resources
